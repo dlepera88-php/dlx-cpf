@@ -1,0 +1,21 @@
+{
+  "name": "dlepera88-php/dlx-cpf",
+  "version": "1.0",
+  "license": "MIT",
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "require": {
+    "doctrine/orm": "^2.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "CPF\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CPF\\Tests\\": "tests/"
+    }
+  }
+}
