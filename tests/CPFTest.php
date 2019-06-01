@@ -38,8 +38,11 @@ class CPFTest extends TestCase
 {
     public function test__construct()
     {
-        $cpf = new CPF('0123456789101');
+        $txt_cpf = '0123456789101';
+
+        $cpf = new CPF($txt_cpf);
         $this->assertInstanceOf(CPF::class, $cpf);
+        $this->assertEquals($cpf->getCpfMask(), (string)$cpf);
     }
 
     /**

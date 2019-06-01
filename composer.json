@@ -1,6 +1,6 @@
 {
-  "name": "dlepera88-php/dlx-cpf",
-  "version": "1.0",
+  "name": "docs-br/cpf",
+  "version": "1.0.1",
   "license": "MIT",
   "require-dev": {
     "phpunit/phpunit": "^7.5"

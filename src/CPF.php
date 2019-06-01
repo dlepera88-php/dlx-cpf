@@ -56,6 +56,14 @@ class CPF
     }
 
     /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->getCpfMask();
+    }
+
+    /**
      * Retornar todos os números desse CPF, inclusive zeros a esquerda
      * @return string
      */
